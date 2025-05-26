@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SunnyMood.github.io/static/css/main.c276c9f3.css",
+    "main.js": "/SunnyMood.github.io/static/js/main.162104b4.js",
+    "index.html": "/SunnyMood.github.io/index.html",
+    "main.c276c9f3.css.map": "/SunnyMood.github.io/static/css/main.c276c9f3.css.map",
+    "main.162104b4.js.map": "/SunnyMood.github.io/static/js/main.162104b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c276c9f3.css",
+    "static/js/main.162104b4.js"
+  ]
+}
