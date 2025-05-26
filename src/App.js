@@ -8,6 +8,7 @@ import Products from './pages/Products';
 import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
+import { HashRouter as Router } from 'react-router-dom';
 import NotFound from './pages/NotFound';
 import { Toaster } from 'react-hot-toast';
 
