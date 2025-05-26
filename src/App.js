@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // ✅ Use HashRouter for GitHub Pages
 import { CartProvider } from './context/CartContext';
 import { ThemeProvider } from './context/ThemeContext';
 import Header from './components/Header';
@@ -8,7 +9,6 @@ import Products from './pages/Products';
 import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
-import { HashRouter as Router } from 'react-router-dom';
 import NotFound from './pages/NotFound';
 import { Toaster } from 'react-hot-toast';
 
@@ -16,7 +16,7 @@ function App() {
   return (
     <ThemeProvider>
       <CartProvider>
-      <Toaster position="top-right" toastOptions={{ duration: 4000 }} />
+        <Toaster position="top-right" toastOptions={{ duration: 4000 }} />
         <Router>
           <div className="flex flex-col min-h-screen bg-summer-mint">
             <Header />
